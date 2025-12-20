@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #ffb703, #f77f00);
+    color: #4a2500;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+
+/* Logo image */
+header img {
+    width: 50px;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #4a2500;
+    font-weight: bold;
+}
+
+/* Login & Signup buttons */
+header button {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* First button (Login) */
+header button:first-child {
+    background-color: #5a2d0c;
+    color: white;
+}
+
+/* Second button (Sign up) */
+header button:last-child {
+    background-color: transparent;
+    border: 2px solid #5a2d0c;
+    color: #5a2d0c;
+    margin-left: 10px;
+}
+
+/* Hero section */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+/* Text container */
+section > div:first-child {
+    max-width: 550px;
+}
+
+/* Heading */
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    display: block;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Hero buttons */
+section button {
+    padding: 12px 26px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* Get Started */
+section button:first-child {
+    background-color: #5a2d0c;
+    color: white;
+}
+
+/* Watch Demo */
+section button:last-child {
+    background-color: transparent;
+    border: 2px solid #5a2d0c;
+    color: #5a2d0c;
+}
+
+/* Burger image */
+section img {
+    width: 420px;
+}
+
