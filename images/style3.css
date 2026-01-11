@@ -1,0 +1,60 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: "Georgia", serif;
+    background-color: #5a3e2b; /* Brown background */
+    color: #f5efe6;
+}
+
+/* =========================
+   HEADER (DARKER BROWN)
+========================= */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 50px;
+    background-color: #3b2416; /* Dark brown */
+}
+
+/* Logo */
+header img {
+    width: 85px;
+}
+
+/* Navigation */
+header a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #f5efe6;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header a:hover {
+    color: #997c1b; /* Gold hover */
+}
+
+/* Sign up button */
+header button {
+    padding: 10px 22px;
+    background-color: #d4af37;
+    color: #3b2416;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #c

@@ -1,0 +1,17 @@
+*{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p{
+   color: blue;
+}
+
+.cars{
+    background-color: yellow;
+}
+
+#unique{
+    font-weight: bold;
+}

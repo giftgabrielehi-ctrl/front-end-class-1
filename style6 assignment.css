@@ -1,0 +1,43 @@
+.first{
+    text-align: left;
+}
+.second{
+    text-align: center;
+}
+.third{
+    text-align: right;
+}
+
+/*exercise 3*/
+.link{
+    text-decoration:none ;
+}
+.fourth{
+    text-decoration:underline;
+}
+
+/*exercise 4*/
+
+.fifth{
+    line-height:2;
+}
+/*exercise 4*/
+
+.sixth{
+    letter-spacing: 12;
+}
+.seventh{
+    word-spacing:12;
+}
+
+/*exercise 5*/
+.eight{
+    text-transform: lowercase;
+}
+.ninth{
+    text-transform: uppercase;
+}
+.tenth{
+    text-transform: capitalize;
+}
+
