@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.container{
+    padding: 50px; 
+    width: 300px;;
+    background-color: rgba(48, 46, 43, 0.781);
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 20%;z
+    box-shadow: 1px 1px 8px rgb(155, 136, 180);
+}
+
+img{
+    border-radius: 80px;
+}
+
+button{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 10px;
+}
