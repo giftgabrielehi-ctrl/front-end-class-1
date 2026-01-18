@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(bg.png);
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 60px;
+}
+
+header ul{
+    display: flex;
+   
+    list-style: none;
+  
+   
+}
+
+header ul li{
+    margin-right: 20px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding: 10px 15px;
+
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 32px;
+    cursor: pointer; 
+    font-weight: 400;
+}
+
+#sign-up{
+    background:transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.active{
+    font-weight: bold;
+}  
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 44px;
+}
+
+section h1{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-style: Medium;
+    line-height: 100%;
+    letter-spacing: 1%;
+
+}
+section p{
+    margin: 24px 0;
+    font-size: 24px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: Regular;
+}
+
+section img{
+    max-width: 400px;
+    object-fit: contain;
+}
