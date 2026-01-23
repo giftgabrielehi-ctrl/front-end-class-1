@@ -1,0 +1,78 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body header{
+    background: white;
+}
+body section{
+    background: rgb(248, 248, 200);
+}
+header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(56, 6, 6);
+    gap:30px;
+}
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header ul{
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+header ul li{
+    margin-right: 50px;
+}
+header a{
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    color: rgb(63, 13, 13) ;
+    font-style: "manrope"sans-serif;
+    margin-left: 0px;
+}
+header button{
+    background-color: rgb(63, 13, 13);
+    display: inline;
+    width: 90px;
+    height: 40px;
+    color: white;
+    font-style: "manrope", sans-serif;
+    border: none;
+}
+.Theme{
+    display: flex;
+}
+section{
+    display: flex;
+    padding: 50px;
+}
+section h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+section img{
+    margin-left: 120px;
+    width: 600px;
+}
+section button{
+    width: 160px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-top: 30px;
+}
+section p{
+    font-size: 20px;
+}
