@@ -1,0 +1,22 @@
+1  Css box model
+    The css box model is a part of styling in css which tends to put the contents of the code into a box format for styling. The box model canbe used to highlight a certain description of a person or product on a website.
+     The css box model is divided into four parts 
+     -The content
+     -The padding
+     -The border
+     -The margin
+2  The margin is the space around the box model or the code, it can be the top,bottom,left or right.
+    The padding contains trhe content and is surrounded by the border,this is literally where the contents are aligned basically it houses the contents of the border box or code.
+3  Semantic html or tags is used to align the html code ensuring that it is orderly. semantic tags are the header,section,article and footer. 
+     Benefits
+     -They help in css styling allowing eastyy navigation
+     -They ensure that the website is properly orderd and the sections,like the header and footer are put in the right directions and layers.
+4   The flexbox is used to align different parts of a section or page of a website horizontally, without the flexbox,the codes align in a vertical order.
+     The grid does the same function as the flexbox though the grid is used for more complex and precise arrangements of the website.
+     REASONS
+     -I would use the grid because it is more concise and each part can be targeted directly like the write up or the images or trhe box model
+5   Display flex aligns the contents of the semantic html horizontally since when run without flex it is alignedd vertically, it ensures that they the contents or box models are aligned at certain points of the website horizontally with spacings within them
+6    The alt attribute ensures that the space for an image is not empty basically giving a name to the image when it has been ran if there is an image error on the html code. 
+       The developer benfits because he notices thart there is an issue with the image and alkso knows the image he probabluy was planiing to put there.
+7   When two css rule works for one element,the element either has a class and its called in the css under another class.
+    Css specificity involves giving a class or an id to an element to be specified in css for styling.

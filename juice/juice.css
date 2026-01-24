@@ -12,6 +12,9 @@ header{
     justify-content: space-between;
     padding: 20px 40px;
     gap: 20px;
+    position: fixed;
+    top: 0;
+    
 
 }
 header img{
@@ -38,6 +41,7 @@ header button{
     margin-right: 200px;
     color: rgb(66, 15, 15);
     border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
 }
 section{
     display: grid;
@@ -73,6 +77,7 @@ section p{
       height: 40px;
       border-radius: 10px;
       margin-left: 20px;
+       box-shadow: 1px 1px 8px black;
 }
 .why{
     display: grid;
@@ -161,17 +166,26 @@ section h1 p{
 }
 .form{
     display: flex;
-    flex-direction: column;   /* KEY LINE */
-    gap: 10px;                /* space between items */
-    width: 100%;
-    max-width: 400px;
-    border-radius: 30px;
-    margin-left: 20px;
-    justify-content: space-between;
-
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 20px;
+    
 }
-.footer{
-    display: flex;
+.footer input{
+      width: 250px;
+    padding: 6px 12px;
+    display: block;
+    margin: 1px 0;
+    border-radius: 12px;
+    border: none;
+}
+.one{
+     width: 300px;
+    height: 100px;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 12px;
+    display: block;
 }
 button{
     background: orange;
@@ -179,4 +193,8 @@ button{
     border-radius:5px;
     border: none;
     height: 50px;
+    
+}
+.form img{
+    width: 200px;
 }

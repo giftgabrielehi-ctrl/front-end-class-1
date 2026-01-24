@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* added this, this helps reset the css code */
+}
+body {
+    font-family: Arial;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20;
+}
+
+.card {
+    width: 200;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+h3 {
+    color: blue;
+}
