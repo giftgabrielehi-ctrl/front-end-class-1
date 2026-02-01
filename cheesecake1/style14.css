@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+}
+body{
+    background: linear-gradient(to top, rgb(226, 219, 208), rgb(250, 225, 192));
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+header img{
+    width: 120px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(87, 32, 32);
+    text-decoration: white;
+    border-radius: 10px;
+    width:430px;
+    height: 40px;
+}
+ul li{
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+button:hover{
+    background: var(--h1-color);
+    color: var(--bg-color);
+}
+header button{
+    border-radius: 20px;
+    background: none;
+    width: 70px;
+    height: 40px;
+    margin-right: 100px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+#me{ 
+    width: 100px;
+    background-color: rgb(107, 56, 56);
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 40px;
+}
+
+#the{
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    background: none;
+}
+.talk{
+    padding: 0px 0px 5px 0px;
+}
+.talk h1{
+    margin-top: 20px;
+}
+.talk p{
+    margin-top: 20px;
+}
+.talk button{
+    width: 100px;
+    background-color: rgb(107, 56, 56);
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 40px;
+}
+.pop{
+    margin-left: 470px;
+}
+.quiet{
+    margin-top: 40px;
+}
+.quiet img{
+    width: 300px;
+}
+.us{
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px black;
+    padding: 50px;
+    margin: 0px 20px;
+}
+.pip{
+    text-align: center;
+    margin-top: 180px;
+}
+.ha{
+    width: 200px;
+}
+

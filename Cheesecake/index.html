@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesecake</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            transition: all 0.3s ease;
+        }
+        
+        header {
+            animation: slideDown 0.5s ease;
+        }
+        
+        .home-text, .home-img {
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .about-img, .about-text {
+            animation: fadeInLeft 0.8s ease;
+        }
+        
+        .menu-1 {
+            animation: scaleUp 0.6s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .menu-1:hover {
+            transform: translateY(-10px);
+        }
+        
+        .blog1 {
+            animation: fadeIn 0.7s ease;
+            transition: transform 0.3s ease;
+        }
+        
+        .blog1:hover {
+            transform: scale(1.05);
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes fadeInLeft {
+            from { transform: translateX(-30px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes scaleUp {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <!-- boxicon link-->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<!-- remix-icon link-->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+	<!-- googlefonts link | Inika Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="logo.svg" alt=""></a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="side-bar">
+        <a href="" class="btn">Sign Up</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Bite The World of Cheesecake Wonders</h1>
+            <p>We always make our customers happy by providing <br>as many choices as possible</p>
+            <div class="btns">
+            <a href="" class="btn2">Get Started</a>
+            <a href="" class="btn"><i class="ri-play-circle-fill"></i>Watch Demo</a>
+        </div>
+        </div>
+        <div class="home-img">
+            <img src="home-img.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+          <img src="About Us Image.png" alt="">
+        </div>
+        <div class="about-text">
+           <h2>We love Cheesecake</h2>
+           <h3>Discover our Cheesecake story</h3>
+           <p>At Cheesecake love, quality is our cornerstone.Each Cheesecake is crafted with the finest ingredients, 
+            meticulous attention to details and a dash of creativity</p>
+            <br>
+        
+            <p>We beleive in delivering not just desserts, but moments of sheer indulgence</p>
+            <a href="" class="btn2">Read More</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1> Our Menu</h1>
+        <div class="menu-list">
+             <div class="menu-1">
+                <img src="firstcake.png" alt="">
+                <h3>Blueberry Cheesecake</h3>
+                <p>Blueberry love, cheesecake delight</p>
+                <div class="btn-items">
+                    <p><span>$</span>9.00</p>
+                    <div class="ratings">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+             </div>
+             </div>
+        
+        
+            <div class="menu-1">
+               <img src="sec.cake.png" alt="">
+               <h3>Biscoff Cheesecake</h3>
+               <p>Biscoff adores cheesecake magic</p>
+               <div class="btn-items">
+                   <p><span>$</span>11.00</p>
+                   <div class="ratings">
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+                   <i class="ri-star-fill"></i>
+               </div>
+               </div>
+            </div>
+       
+       
+        <div class="menu-1">
+           <img src="thirdcake.png" alt="">
+           <h3>Chocolate Cheesecake</h3>
+           <p>cherish chocolate, relish cheesecake magic</p>
+           <div class="btn-items">
+               <p><span>$</span>10.00</p>
+               <div class="ratings">
+               <i class="ri-star-fill"></i>
+               <i class="ri-star-fill"></i>
+               <i class="ri-star-fill"></i>
+               <i class="ri-star-fill"></i>
+               <i class="ri-star-fill"></i>
+           </div>
+        </div>
+         </div>
+     
+   </div>
+   <div class="right">
+   <p> View more </p><i class="ri-arrow-drop-right-line"></i>
+   </div>  
+    </section>
+    <section class="blog">
+        <h1>Our Blog</h1>
+        <p class="pp"> Recent Posts</p>
+        <div class="blog-items">
+            <div class="blog1">
+                <img src="IMAGE FOR BLOG 1.png" alt="">
+                <p>23 Nov, 2023 / Cheesecake</p>
+                <h4>A Peek Behind the Cheesecake Curtain</h4>
+                <h6>Step into our cheesecake haven, where the magic unfolds behind the scenes,
+                     whisking dreams into reality. Our kitchen is a symphony and very...</h6>
+                     <h3>Read More</h3>
+            </div>
+            <div class="blog1">
+                <img src="Image Blog 2.png" alt="">
+                <p>18 July, 2023 / Cheesecake</p>
+                <h4>Low-Sugar & Gluten-Free Cheesecakes</h4>
+                <h6>Welcome to our guilt-free indulgence zone,
+                     where we're redefining the art of cheesecake with our delectable low-sugar...</h6>
+                     <br>
+                     <h3>Read More</h3>
+            </div>
+            <div class="blog1">
+                <img src="Image Blog 3.png" alt="">
+                <p>21 January, 2024 / Cheesecake</p>
+                <h4>Sweet Words - Customer Reviews of Cheesecakes</h4>
+                <h6>Indulge in the rich tapestry of heartfelt stories within "Sweet Words." This curated 
+                    collection of customer reviews offers a glimpse into the joy...</h6>
+                     <h3>Read More</h3>
+            </div>
+        </div>
+        
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+           <h1>Contact Us</h1>
+           <p>Need to get in touch with us? Either fill out the form with your inquiry or find the department!</p>
+           <img src="contact1.png" alt="">
+           <div class="socials">
+            <i class="ri-facebook-line fill"></i>
+            <i class="ri-twitter-line"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-youtube-line"></i>
+           </div>
+           <p>Copyright &copy; 2024 designed by @AmenaiSabuwala | All rights reserved</p>
+        </div>
+        <div class="forms">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+            <textarea name="e" id="" placeholder="Your Message..."></textarea>
+            <a href="" class="contact-btn">Contact Us Now</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

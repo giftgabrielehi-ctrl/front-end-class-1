@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesecake website</title>
+    <style>
+        * {
+            transition: all 0.3s ease;
+        }
+        
+        header {
+            animation: slideDown 0.5s ease;
+        }
+        
+        .home-text, .home-img {
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .about-img, .about-text {
+            animation: fadeInLeft 0.8s ease;
+        }
+        
+        .menu-1 {
+            animation: scaleUp 0.6s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .menu-1:hover {
+            transform: translateY(-10px);
+        }
+        
+        .blog1 {
+            animation: fadeIn 0.7s ease;
+            transition: transform 0.3s ease;
+        }
+        
+        .blog1:hover {
+            transform: scale(1.05);
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes fadeInLeft {
+            from { transform: translateX(-30px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes scaleUp {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <link rel="stylesheet" href="style14.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="first.png" alt="first">
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button>Sign Up</button>
+    </header>
+    <section>
+        <div>
+            <h1>Bite The World Of Cheesecake Wonders</h1>
+            <p>We always make our customers happy by providing as many choices as possible</p>
+            <button id="me">Get started</button>
+            <button id="the">Play video</button>
+        </div>
+        <div>
+            <img src="second.png" alt="second">
+        </div>
+    </section>
+    <section class="talk">
+        <div>
+            <img src="third.png" alt="third">
+        </div>
+        <div>
+            <h1>We love cheesecake</h1>
+            <p>Discover our cheesecake story</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a sint veritatis quisquam quod vitae illo quia incidunt voluptatum, ipsam aspernatur totam molestias, ducimus provident est sequi quas temporibus in.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, minus fuga asperiores optio eum porro ullam.</p>
+            <button>Read more</button>
+        </div>
+    </section>
+    <section class="pop"><h1>OUR MENU</h1></section>
+    <section class="quiet">
+        <div class="us">
+            <img src="fourth.png" alt="fourth">
+            <h2>Blueberry cheesecake</h2>
+            <p>Discover our cheesecake story</p>
+            <h2>$2.00</h2>
+        </div>
+        <div class="us">
+            <img src="fifth.png" alt="fifth">
+            <h2>Biscoff cheesecake</h2>
+            <p>Discover our cheesecake story</p>
+            <h2>$3.00</h2>
+        </div>
+        <div class="us">
+            <img src="sixth.png" alt="sixth">
+            <h2>Chocolate cheesecake</h2>
+            <p>Discover our cheesecake story</p>
+            <h2>$4.00</h2>
+        </div>
+    </section>
+    <section>
+             <h1 class="pip">OUR BLOG</h1>
+    </section>
+    <section class="quiet">
+        <div class="us">
+            <img src="seventh.jpg" alt="seventh">
+        </div>
+        <div class="us">
+            <img src="eighth.jpg" alt="eighth">
+        </div>
+        <div class="us">
+            <img src="ninth.jpg" alt="ninth">
+        </div>
+    </section>
+    <section class="see">
+        <div>
+            <h1>Contact us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero natus quia explicabo, expedita impedit qui sapiente sequi.</p>
+            <img src="eighth.jpg" alt="eighth" class="ha">
+        </div>
+        <div>
+            <input type="text"placeholder="Input your name"><br>
+            <input type="email" placeholder="Your email"><br>
+            <input type="text" placeholder="Your message">
+        </div>
+    </section>
+</body>
+</html>
