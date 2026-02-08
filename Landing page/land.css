@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    background-color: blue;
+}
+ul li{
+    margin-right: 20px;
+}
+ul{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: none;
+}
+button{
+    gap: 20px;
+}
+.me{
+    background-color: yellow;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 70px;
+}
+.the{
+    background-color: rgb(70, 70, 248);
+      width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 100px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section img{
+    width: 500px;
+}
+section h1{
+
+}
